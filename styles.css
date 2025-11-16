@@ -1,0 +1,166 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    text-align: center;
+    
+     
+}
+
+.hero-sect{
+    padding-top: 60px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    background-image: url("images/group11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.first-hero-txt{
+    font-size: 80px;
+    color: #3D90B9;
+    margin-bottom: 15px;
+    /* background-color: red; */
+    
+}
+
+i{
+    color: #3D77B9;
+}
+
+.first-hero{
+     margin-top: 15px;
+     background-image: linear-gradient(107deg ,#3D77B9, #3D90B9 );
+     font-size: 35px;
+     color: white;
+     width: fit-content;
+     margin-inline: auto;
+     padding: 14px 20px;
+     border-radius: 12px;
+     font-family: "Inter", sans-serif;
+     font-style: italic;
+    
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta-text{
+    color: #3D84B9;
+    font-style: italic;
+    font-size: 35px;
+    padding-left: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.why-damietta-special{
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-image: linear-gradient(0deg, #D8DAEF, #FFFFFF);
+}
+
+.sect-title{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.sec-parg{
+    font-size: 25px;
+    padding: 0px 120px;
+    color: #878787;
+    font-style: italic;
+    margin: 0px;
+    margin-bottom: 80px;
+}
+
+.best-famous-things{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.frst-img, .sec-img, .thrd-img{
+    width: 300px;
+}
+
+h3{
+    margin: 20px 0px;
+    color: #3D3FB9;
+    font-size: 30px;
+}
+
+.explantion-text{
+    font-size: 25px;
+    font-style: italic;
+    color: #7E7F98;
+    margin: 0px;
+}
+
+.about-me{
+    display: flex;
+        
+}
+
+.my-image{
+    width: 581px;
+}
+
+.right-coulm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    padding: 0px 120px;
+   
+}
+
+.aboutme-txt{
+    color: #3D8FB9;
+    font-size: 155px;
+    font-family: "Inter", sans-serif;
+    font-variant-caps: all-petite-caps;
+    margin-bottom: 0px;
+}
+
+.description-about{
+    font-size: 40px;
+    line-height: 55px;
+    text-align: left;
+    color: #878787;
+}
+
+.singnutre-images{
+    margin: auto;
+    width: 460px;
+}
+
+.last-raw{
+    margin-bottom: 120px;
+    display: flex;
+    gap: 50px;
+    color: #878787;
+    font-size: 25px;
+}
